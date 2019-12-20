@@ -12146,11 +12146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sovsh\\Desktop\\Testing Application\\AutoMapperTesting\\AutoMapperTesting\\AutoMapperTesting.csproj",
+      "projectUniqueName": "C:\\Users\\sovsh\\Desktop\\Testing Application\\Automapper\\Automapper-ByCodeMaze\\AutoMapperTesting\\AutoMapperTesting.csproj",
       "projectName": "AutoMapperTesting",
-      "projectPath": "C:\\Users\\sovsh\\Desktop\\Testing Application\\AutoMapperTesting\\AutoMapperTesting\\AutoMapperTesting.csproj",
+      "projectPath": "C:\\Users\\sovsh\\Desktop\\Testing Application\\Automapper\\Automapper-ByCodeMaze\\AutoMapperTesting\\AutoMapperTesting.csproj",
       "packagesPath": "C:\\Users\\sovsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sovsh\\Desktop\\Testing Application\\AutoMapperTesting\\AutoMapperTesting\\obj\\",
+      "outputPath": "C:\\Users\\sovsh\\Desktop\\Testing Application\\Automapper\\Automapper-ByCodeMaze\\AutoMapperTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

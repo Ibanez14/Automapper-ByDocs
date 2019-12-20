@@ -9,31 +9,36 @@ using AutoMapper;
 /// </summary>
 namespace AutoMapperTesting.Models.Domain
 {
-    // DM
+    // DOMAIN
     public class User
     {
-        public User(string firstName, string lastName, string email, string address)
+        public User(string firstName, string email)
         {
             FirstName = firstName;
-            LastName = lastName;
             Email = email;
-            Address = address;
         }
+
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string Email { get; set; }
     }
 
 
-    // VM
-    public class UserViewModel
+    // DTO
+    public class UserDTO
     {
         public string FirstName { get; set; }
         public string Email { get; set; }
     }
 
-    // Map
-    public class UserProfile:Profile
+
+
+
+
+    /// <summary>
+    /// Simple convention-based mapping
+    /// </summary>
+    public class UserProfile : Profile
     {
         public UserProfile()
         {
@@ -41,7 +46,7 @@ namespace AutoMapperTesting.Models.Domain
             //CreateMap<User, UserViewModel>();
 
             // Map User to UserViewModel and reverse
-            CreateMap<User, UserViewModel>()
+            CreateMap<User, UserDTO>()
                 .ReverseMap();
         }
     }
